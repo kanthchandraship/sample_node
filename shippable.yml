@@ -19,6 +19,3 @@ build:
     - echo "testing"
     - sudo docker images
     - echo $SHIP_NODE_VERSION
-    - echo $SHIP_LANGUAGE
-    - sleep 10m
-
