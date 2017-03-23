@@ -19,5 +19,5 @@ build:
     - echo "testing"
     - sudo docker images
     - echo $SHIP_NODE_VERSION
-    - echo $IS_SHIPPABLE_LEGACY_IMAGE
-    - echo $IS_SHIPPABLE_OFFICIAL_IMAGE
+    - echo $SHIPPABLE_IS_OFFICIAL_IMAGE
+    - echo $SHIPPABLE_IS_LEGACY_IMAGE
