@@ -10,7 +10,7 @@ env:
 
 build:
   pre_ci_boot:
-    image_name: drydock/u14nodall
+    image_name: kanthchandra/sample_node
     image_tag: prod
     pull: false
     options: '--privileged=true --net=bridge'
