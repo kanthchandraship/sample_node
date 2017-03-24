@@ -11,7 +11,7 @@ env:
 build:
   pre_ci_boot:
     image_name: kanthchandra/sample_node
-    image_tag: prod
+    image_tag: latest
     pull: false
     options: '--privileged=true --net=bridge'
   
