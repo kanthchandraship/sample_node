@@ -14,7 +14,8 @@ build:
     image_tag: latest
     pull: false
     options: '--privileged=true --net=bridge'
-  
+  pre_ci:
+    - echo "pre ci"
   ci:
     - echo "testing"
     - sudo docker images
